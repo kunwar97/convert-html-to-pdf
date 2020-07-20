@@ -1,12 +1,12 @@
 {
-  "name": "convert-html-to-pdf",
+  "name": "@kunwar97/convert-html-to-pdf",
   "description": "Convert HTML to PDF in node.js",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "license": "MIT",
   "authors": [
-    "Alex Tiley <alex@tiley.io>"
+    "Kunwar Ashutosh Singh <kunwarashutoshsingh97@gmail.com>"
   ],
   "keywords": [
     "convert",
@@ -29,9 +29,9 @@
     "ts",
     "js"
   ],
-  "homepage": "https://github.com/alextiley/convert-html-to-pdf",
-  "repository": "https://github.com/alextiley/convert-html-to-pdf",
-  "bugs": "https://github.com/alextiley/convert-html-to-pdf/issues",
+  "homepage": "https://github.com/kunwar97/convert-html-to-pdf",
+  "repository": "https://github.com/kunwar97/convert-html-to-pdf",
+  "bugs": "https://github.com/kunwar97/convert-html-to-pdf/issues",
   "scripts": {
     "build": "rimraf ./lib; tsc -p tsconfig.build.json",
     "prepublishOnly": "yarn build",
@@ -42,19 +42,19 @@
     "/lib"
   ],
   "devDependencies": {
-    "@types/jest": "^24.0.15",
-    "@types/lodash": "^4.14.136",
-    "@types/node": "^12.6.8",
-    "@types/puppeteer": "^1.19.0",
-    "jest": "^24.8.0",
-    "rimraf": "^2.6.3",
-    "ts-jest": "^24.0.2",
-    "ts-node-dev": "^1.0.0-pre.40",
-    "typescript": "^3.5.3"
+    "@types/jest": "^26.0.5",
+    "@types/lodash": "^4.14.157",
+    "@types/node": "^14.0.23",
+    "@types/puppeteer": "^3.0.1",
+    "jest": "^26.1.0",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.1.3",
+    "ts-node-dev": "^1.0.0-pre.52",
+    "typescript": "^3.9.7"
   },
   "dependencies": {
-    "lodash": "^4.17.15",
-    "puppeteer": "^1.19.0"
+    "lodash": "^4.17.19",
+    "puppeteer": "^5.2.0"
   },
   "jest": {
     "clearMocks": true,
